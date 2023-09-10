@@ -14,13 +14,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 pyarrow = "^11.0.0"
-fsspec
-gcsfs
+fsspec = "*"
+gcsfs = "*"
 s3fs = "^2023.1.0"
 pydantic = "^1.10.5"
 pandas = "^2.0.0"
 tqdm = "^4.65.0"
-pinecone-client
+pinecone-client = "*"
 
 
 [tool.poetry.group.dev]
